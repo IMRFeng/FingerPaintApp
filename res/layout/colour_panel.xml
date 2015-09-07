@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="2"
+    android:rowCount="6" >
+
+    <ImageButton
+        android:layout_width="@dimen/color_size"
+        android:layout_height="@dimen/color_size"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="#FF660000"
+        android:contentDescription="@string/palette"
+        android:onClick="paletteClicked"
+        android:src="@drawable/palette"
+        android:tag="#FF660000" />
+
+    <ImageButton
+        android:layout_width="@dimen/color_size"
+        android:layout_height="@dimen/color_size"
+        android:layout_marginTop="2dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="#FFFF0000"
+        android:contentDescription="@string/palette"
+        android:onClick="paletteClicked"
+        android:src="@drawable/palette"
+        android:tag="#FFFF0000" />
+
+    <ImageButton
+        android:layout_width="@dimen/color_size"
+        android:layout_height="@dimen/color_size"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="#FFFF6600"
+        android:contentDescription="@string/palette"
+        android:onClick="paletteClicked"
+        android:src="@drawable/palette"
+        android:tag="#FFFF6600" />
+
+    <ImageButton
+        android:layout_width="@dimen/color_size"
+        android:layout_height="@dimen/color_size"
+        android:layout_marginTop="2dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="#FFB97C"
+        android:contentDescription="@string/palette"
+        android:onClick="paletteClicked"
+        android:src="@drawable/palette"
+        android:tag="#FFB97C" />
+
+    <ImageButton
+        android:layout_width="@dimen/color_size"
+        android:layout_height="@dimen/color_size"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="#FF009900"
+        android:contentDescription="@string/palette"
+        android:onClick="paletteClicked"
+        android:src="@drawable/palette"
+        android:tag="#FF009900" />
+
+    <ImageButton
+        android:layout_width="@dimen/color_size"
+        android:layout_height="@dimen/color_size"
+        android:layout_marginTop="2dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="#FF009999"
+        android:contentDescription="@string/palette"
+        android:onClick="paletteClicked"
+        android:src="@drawable/palette"
+        android:tag="#FF009999" />
+
+    <ImageButton
+        android:layout_width="@dimen/color_size"
+        android:layout_height="@dimen/color_size"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="#0504AA"
+        android:contentDescription="@string/palette"
+        android:onClick="paletteClicked"
+        android:src="@drawable/palette"
+        android:tag="#0504AA" />
+
+    <ImageButton
+        android:layout_width="@dimen/color_size"
+        android:layout_height="@dimen/color_size"
+        android:layout_marginTop="2dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="#00035B"
+        android:contentDescription="@string/palette"
+        android:onClick="paletteClicked"
+        android:src="@drawable/palette"
+        android:tag="#00035B" />
+
+    <ImageButton
+        android:layout_width="@dimen/color_size"
+        android:layout_height="@dimen/color_size"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="#96F97B"
+        android:contentDescription="@string/palette"
+        android:onClick="paletteClicked"
+        android:src="@drawable/palette"
+        android:tag="#96F97B" />
+
+    <ImageButton
+        android:layout_width="@dimen/color_size"
+        android:layout_height="@dimen/color_size"
+        android:layout_marginTop="2dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="#01FF07"
+        android:contentDescription="@string/palette"
+        android:onClick="paletteClicked"
+        android:src="@drawable/palette"
+        android:tag="#01FF07" />
+
+    <ImageButton
+        android:layout_width="@dimen/color_size"
+        android:layout_height="@dimen/color_size"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="#06470C"
+        android:contentDescription="@string/palette"
+        android:onClick="paletteClicked"
+        android:src="@drawable/palette"
+        android:tag="#06470C" />
+
+    <ImageButton
+        android:layout_width="@dimen/color_size"
+        android:layout_height="@dimen/color_size"
+        android:layout_marginTop="2dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="#033500"
+        android:contentDescription="@string/palette"
+        android:onClick="paletteClicked"
+        android:src="@drawable/palette"
+        android:tag="#033500" />
+
+    <ImageButton
+        android:layout_width="@dimen/color_size"
+        android:layout_height="@dimen/color_size"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="#FF787878"
+        android:contentDescription="@string/palette"
+        android:onClick="paletteClicked"
+        android:src="@drawable/palette"
+        android:tag="#FF787878" />
+
+    <ImageButton
+        android:layout_width="@dimen/color_size"
+        android:layout_height="@dimen/color_size"
+        android:layout_marginTop="2dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="#FF000000"
+        android:contentDescription="@string/palette"
+        android:onClick="paletteClicked"
+        android:src="@drawable/palette"
+        android:tag="#FF000000" />
+
+</GridLayout>

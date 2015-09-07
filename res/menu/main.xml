@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.fingerpaintapp.MainActivity" >
+
+    <!--<item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+
+     <item
+        android:id="@+id/menuTools"
+        android:icon="@drawable/tools"
+        android:title="@string/menu_tools"
+        android:showAsAction="always|ifRoom"/>-->
+
+    <item 
+        android:id="@+id/menuGallery"
+        android:title="@string/menu_gallery"
+        android:showAsAction="never"/> 
+
+    <item
+        android:id="@+id/menuErase"
+        android:title="@string/menu_erase"
+        android:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/menuMMS"
+        android:title="@string/menu_mms"
+        android:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/menuExit"
+        android:title="@string/menu_exit"
+        android:showAsAction="never"/>
+</menu>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_activated="true">
+        <bitmap android:src="@drawable/triangle_solid" />
+    </item>
+    
+    <item>
+        <bitmap android:src="@drawable/triangle_stroke" />
+    </item>
+
+</selector>
+
+<!-- 
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/square_solid" android:state_focused="true" android:state_pressed="true"/>
+    <item android:drawable="@drawable/square_solid" android:state_focused="false" android:state_pressed="true"/>
+    <item android:drawable="@drawable/square_stroke" android:state_focused="false" android:state_pressed="false"/>
+
+</selector>
+ -->

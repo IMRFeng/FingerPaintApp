@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFFFF"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/shapes" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_margin="4dp"
+        android:contentDescription="@string/shapes"
+        android:onClick="shapeClicked"
+        android:src="@drawable/triangle"
+        android:tag="triangle" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_margin="4dp"
+        android:contentDescription="@string/shapes"
+        android:onClick="shapeClicked"
+        android:src="@drawable/square"
+        android:tag="square" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_margin="4dp"
+        android:contentDescription="@string/shapes"
+        android:onClick="shapeClicked"
+        android:src="@drawable/circle"
+        android:tag="circle" />
+
+</LinearLayout>
