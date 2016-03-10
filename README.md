@@ -1,5 +1,5 @@
 # FingerPaintApp
-This is a mobile application which allows a user to draw pictures using touch screen functionality. The basic functionality of the application will allow the user to select different types of shapes to draw with, and will allow them to change colours using the pallette selectors on the left side of the application.
+This is an Android mobile application which allows a user to draw pictures using the touch screen functionality. The basic functionality of the application enables users to select different types of shapes to draw, and change colors using the palette selectors on the left side of the application.
 
 # Implemented the following basic system components:
 1. Palette selection tools – allow the user to set the colour of the drawing object. The number of palette options should be appropriate and should at minimum include Red, Yellow, Green, Blue and Violet.
